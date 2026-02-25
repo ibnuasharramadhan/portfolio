@@ -1,0 +1,474 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Full Stack Developer portfolio: 5+ years building government, banking, and enterprise systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="bg-orbs" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+
+    <header class="site-header">
+        <div class="container nav">
+          <a class="brand" href="#home">IBNU ASHAR RAMADHAN</a>
+          <nav class="nav-links">
+            <a href="#about" data-i18n="nav_about">About</a>
+            <a href="#experience" data-i18n="nav_experience">Experience</a>
+            <a href="#impact" data-i18n="nav_impact">Impact</a>
+            <a href="#projects" data-i18n="nav_projects">Projects</a>
+            <a href="#skills" data-i18n="nav_skills">Skills</a>
+            <a href="#contact" data-i18n="nav_contact">Contact</a>
+          </nav>
+          <div class="nav-actions">
+            <button class="btn ghost lang-toggle" type="button" aria-label="Switch to Indonesian">
+              <img class="flag flag-id" src="assets/flag-id.svg" alt="" aria-hidden="true" />
+              <img class="flag flag-us" src="assets/flag-us.svg" alt="" aria-hidden="true" />
+            </button>
+          </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow" data-i18n="hero_eyebrow">Full Stack Developer • 5+ years experience</p>
+            <h1 data-i18n-html="hero_title">
+              Building digital products that are
+              <span class="accent">secure, scalable</span>, and impactful.
+            </h1>
+            <p class="lead" data-i18n="hero_lead">
+              A Full Stack Developer with 5+ years of experience focused on building innovative
+              software solutions for government, banking, and enterprise sectors. Experienced in
+              delivering robust, maintainable, and scalable systems.
+            </p>
+            <div class="cta">
+              <a class="btn primary" href="#projects" data-i18n="hero_cta_projects">View Projects</a>
+              <a class="btn ghost" href="#contact" data-i18n="hero_cta_contact">Contact Me</a>
+              <a class="btn ghost" href="assets/CV.pdf" download data-i18n="hero_cta_cv">Download CV</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <p class="stat-value" data-i18n="hero_stat1_value">5+ Years</p>
+                <p class="stat-label" data-i18n="hero_stat1_label">Professional Experience</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-value" data-i18n="hero_stat2_value">11+ Projects</p>
+                <p class="stat-label" data-i18n="hero_stat2_label">Government & Enterprise</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-value" data-i18n="hero_stat3_value">#NeverStopLearning</p>
+                <p class="stat-label" data-i18n="hero_stat3_label">Growth Mindset</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-panel" data-reveal>
+            <div class="profile-card">
+              <div class="avatar-ring">
+                <img
+                  class="avatar-img"
+                  src="assets/Foto.png"
+                  alt="Ibnu Ashar Ramadhan"
+                  loading="lazy"
+                />
+              </div>
+              <div class="profile-info">
+                <p class="profile-name">Ibnu Ashar Ramadhan</p>
+                <p class="profile-role" data-i18n="profile_role">Full Stack Developer</p>
+                <div class="profile-tags">
+                  <span data-i18n="profile_tag_years">5+ Years</span>
+                  <span data-i18n="profile_tag_sector">Gov • Banking • Enterprise</span>
+                </div>
+              </div>
+              <div class="availability">
+                <span class="status-dot" aria-hidden="true"></span>
+                <span data-i18n="profile_availability">Open to Collaboration</span>
+              </div>
+            </div>
+            <div class="panel-card">
+              <p class="panel-title" data-i18n="panel_core_title">Core Expertise</p>
+              <div class="pill-grid">
+                <span>Spring Boot</span>
+                <span>Laravel</span>
+                <span>CodeIgniter</span>
+                <span>Node.js</span>
+                <span>ReactJS</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="panel-meta">
+                <div>
+                  <p class="meta-title" data-i18n="panel_tools_title">Tools</p>
+                  <p class="meta-text" data-i18n="panel_tools_text">Git • Linux • Postman</p>
+                </div>
+                <div>
+                  <p class="meta-title" data-i18n="panel_methods_title">Methods</p>
+                  <p class="meta-text" data-i18n="panel_methods_text">SDLC • UML • MVC / HMVC / MVP</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel-card secondary">
+              <p class="panel-title" data-i18n="panel_career_title">Career Snapshot</p>
+              <p class="panel-text" data-i18n="panel_career_p1">
+                Started with a Computer Science background and a passion for coding. Began as a
+                Junior Programmer in IT Consulting, building websites for state-owned enterprises.
+                Now focused on payroll monitoring, banking, and government travel applications.
+              </p>
+              <p class="panel-text" data-i18n="panel_career_p2">Training: Fullstack MERN at CODE.ID.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="about_eyebrow">About</p>
+            <h2 data-i18n="about_title">Impact-driven, fueled by curiosity.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-card" data-reveal>
+              <p data-i18n="about_p1">
+                I believe the best technology comes from collaboration, creative problem-solving,
+                and endless curiosity. In every project, I balance technical quality with business
+                needs so solutions stay relevant and evolve.
+              </p>
+              <p data-i18n="about_p2">
+                My values: responsible, honest, communicative, and always ready to help the team
+                deliver meaningful outcomes.
+              </p>
+            </div>
+            <div class="about-card highlight" data-reveal>
+              <p class="card-title" data-i18n="strengths_title">Strengths</p>
+              <ul class="checklist">
+                <li data-i18n="strength_1">Design secure, well-structured backends.</li>
+                <li data-i18n="strength_2">Integrate responsive, user-friendly frontends.</li>
+                <li data-i18n="strength_3">Optimize databases for performance and reliability.</li>
+                <li data-i18n="strength_4">Apply SDLC best practices and design patterns.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section muted">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="exp_eyebrow">Experience</p>
+            <h2 data-i18n="exp_title">Career journey & key contributions.</h2>
+          </div>
+          <div class="timeline" data-reveal>
+            <div class="timeline-item">
+              <p class="time" data-i18n="exp_time1">2018 — Present</p>
+              <div>
+                <h3 data-i18n="exp_role1">Full Stack Developer</h3>
+                <p data-i18n="exp_desc1">
+                  Building monitoring, payroll, and government systems with a focus on scalability
+                  and data security.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <p class="time" data-i18n="exp_time2">2016 — 2018</p>
+              <div>
+                <h3 data-i18n="exp_role2">Junior Programmer (IT Consulting)</h3>
+                <p data-i18n="exp_desc2">
+                  Directly involved in building websites for state-owned enterprises, shaping
+                  industry understanding early in my career.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <p class="time" data-i18n="exp_time3">Training</p>
+              <div>
+                <h3 data-i18n="exp_role3">Fullstack MERN • CODE.ID</h3>
+                <p data-i18n="exp_desc3">
+                  Strengthened modern JavaScript stack skills, API integration, and deployment
+                  workflow.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="impact" class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="impact_eyebrow">Impact</p>
+            <h2 data-i18n="impact_title">Numbers that reflect my impact.</h2>
+          </div>
+          <div class="impact-grid" data-reveal>
+            <div class="impact-card">
+              <p class="impact-value" data-count="5" data-suffix="+">0</p>
+              <p class="impact-label" data-i18n="impact_label1">Years of Experience</p>
+            </div>
+            <div class="impact-card">
+              <p class="impact-value" data-count="11" data-suffix="+">0</p>
+              <p class="impact-label" data-i18n="impact_label2">Projects Delivered</p>
+            </div>
+            <div class="impact-card">
+              <p class="impact-value" data-count="3">0</p>
+              <p class="impact-label" data-i18n="impact_label3">Industry Sectors</p>
+            </div>
+            <div class="impact-card">
+              <p class="impact-value" data-count="4" data-suffix="+">0</p>
+              <p class="impact-label" data-i18n="impact_label4">Core Frameworks</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="projects_eyebrow">Projects</p>
+            <h2 data-i18n="projects_title">Client-based & government projects I have worked on.</h2>
+          </div>
+
+          <div class="project-group">
+            <h3 data-i18n="projects_group1">Client-Based • PT Bank Mega</h3>
+            <div class="project-grid" data-reveal>
+              <article class="project-card">
+                <h4 data-i18n="proj1_title">Transmart E-Coupon</h4>
+                <p data-i18n="proj1_desc">
+                  Continued development of the e-coupon app with Spring Boot backend and ReactJS frontend.
+                </p>
+                <span>Java • Spring Boot • ReactJS</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj2_title">Data Cleansing Monitoring</h4>
+                <p data-i18n="proj2_desc">
+                  Built a data cleansing monitoring system for banking with Spring Boot backend and Laravel Blade frontend.
+                </p>
+                <span>Spring Boot • Laravel Blade</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj3_title">Credit Control Monitoring</h4>
+                <p data-i18n="proj3_desc">Credit control dashboard to support banking operations.</p>
+                <span>Spring Boot • Laravel Blade</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj4_title">CC History</h4>
+                <p data-i18n="proj4_desc">Credit control history application for internal analysis and audits.</p>
+                <span>Laravel Blade</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="project-group">
+            <h3 data-i18n="projects_group2">Government & Enterprise</h3>
+            <div class="project-grid" data-reveal>
+              <article class="project-card">
+                <h4 data-i18n="proj5_title">TNDE Archive System • KEMENKES</h4>
+                <p data-i18n="proj5_desc">Maintenance of the TNDE archival system using CodeIgniter 3.</p>
+                <span>CodeIgniter 3</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj6_title">Payroll System • KEMENKES</h4>
+                <p data-i18n="proj6_desc">Payroll application using CodeIgniter 4 and Spring Boot.</p>
+                <span>CodeIgniter 4 • Spring Boot</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj7_title">Government Travel Request • KEMENKES</h4>
+                <p data-i18n="proj7_desc">Travel request application built with a monolith Spring Boot architecture.</p>
+                <span>Spring Boot</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj8_title">Archive Document System • KOMINFO</h4>
+                <p data-i18n="proj8_desc">Built and developed an archival document system.</p>
+                <span>CodeIgniter 4 • MySQL • JavaScript</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj9_title">Ship Travel Permit • Ministry of Marine Affairs</h4>
+                <p data-i18n="proj9_desc">Ship travel permit application for the ministry.</p>
+                <span>CodeIgniter 4 • MySQL • JavaScript</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj10_title">KMS • PT PLN Engineering</h4>
+                <p data-i18n="proj10_desc">Knowledge Management System built with native PHP.</p>
+                <span>PHP Native • JavaScript</span>
+              </article>
+              <article class="project-card">
+                <h4 data-i18n="proj11_title">SIPEG • PT Rekadaya Elektrika</h4>
+                <p data-i18n="proj11_desc">Employee information system using native PHP and JavaScript.</p>
+                <span>PHP Native • JavaScript</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section muted">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow" data-i18n="skills_eyebrow">Skills</p>
+            <h2 data-i18n="skills_title">Tech stack I use every day.</h2>
+          </div>
+          <div class="skill-grid" data-reveal>
+            <div class="skill-card">
+              <h4 data-i18n="skill_backend_title">Backend</h4>
+              <p data-i18n="skill_backend_desc">Java (Spring Boot), PHP (Laravel, CodeIgniter 4), Node.js</p>
+            </div>
+            <div class="skill-card">
+              <h4 data-i18n="skill_frontend_title">Frontend</h4>
+              <p data-i18n="skill_frontend_desc">JavaScript, ReactJS, jQuery, AJAX</p>
+            </div>
+            <div class="skill-card">
+              <h4 data-i18n="skill_db_title">Database</h4>
+              <p data-i18n="skill_db_desc">MySQL, PostgreSQL</p>
+            </div>
+            <div class="skill-card">
+              <h4 data-i18n="skill_workflow_title">Workflow</h4>
+              <p data-i18n="skill_workflow_desc">Git, Linux, Postman, SDLC, UML</p>
+            </div>
+            <div class="skill-card">
+              <h4 data-i18n="skill_patterns_title">Patterns</h4>
+              <p data-i18n="skill_patterns_desc">MVC, HMVC, MVP</p>
+            </div>
+          </div>
+          <div class="tech-marquee" data-reveal aria-label="Tech stack carousel">
+            <div class="tech-track">
+              <div class="tech-set">
+                <span class="tech-pill" aria-label="Java"><i class="devicon-java-plain colored"></i>Java</span>
+                <span class="tech-pill" aria-label="Spring Boot"><i class="devicon-spring-plain colored"></i>Spring</span>
+                <span class="tech-pill" aria-label="PHP"><i class="devicon-php-plain colored"></i>PHP</span>
+                <span class="tech-pill" aria-label="Laravel"><i class="devicon-laravel-plain colored"></i>Laravel</span>
+                <span class="tech-pill" aria-label="CodeIgniter"><i class="devicon-codeigniter-plain colored"></i>CodeIgniter</span>
+                <span class="tech-pill" aria-label="Node.js"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+                <span class="tech-pill" aria-label="React"><i class="devicon-react-original colored"></i>React</span>
+                <span class="tech-pill" aria-label="JavaScript"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+                <span class="tech-pill" aria-label="jQuery"><i class="devicon-jquery-plain colored"></i>jQuery</span>
+                <span class="tech-pill" aria-label="MySQL"><i class="devicon-mysql-plain colored"></i>MySQL</span>
+                <span class="tech-pill" aria-label="PostgreSQL"><i class="devicon-postgresql-plain colored"></i>PostgreSQL</span>
+                <span class="tech-pill" aria-label="Git"><i class="devicon-git-plain colored"></i>Git</span>
+                <span class="tech-pill" aria-label="Linux"><i class="devicon-linux-plain colored"></i>Linux</span>
+                <span class="tech-pill" aria-label="Postman"><i class="devicon-postman-plain colored"></i>Postman</span>
+              </div>
+              <div class="tech-set" aria-hidden="true">
+                <span class="tech-pill" aria-label="Java"><i class="devicon-java-plain colored"></i>Java</span>
+                <span class="tech-pill" aria-label="Spring Boot"><i class="devicon-spring-plain colored"></i>Spring</span>
+                <span class="tech-pill" aria-label="PHP"><i class="devicon-php-plain colored"></i>PHP</span>
+                <span class="tech-pill" aria-label="Laravel"><i class="devicon-laravel-plain colored"></i>Laravel</span>
+                <span class="tech-pill" aria-label="CodeIgniter"><i class="devicon-codeigniter-plain colored"></i>CodeIgniter</span>
+                <span class="tech-pill" aria-label="Node.js"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+                <span class="tech-pill" aria-label="React"><i class="devicon-react-original colored"></i>React</span>
+                <span class="tech-pill" aria-label="JavaScript"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+                <span class="tech-pill" aria-label="jQuery"><i class="devicon-jquery-plain colored"></i>jQuery</span>
+                <span class="tech-pill" aria-label="MySQL"><i class="devicon-mysql-plain colored"></i>MySQL</span>
+                <span class="tech-pill" aria-label="PostgreSQL"><i class="devicon-postgresql-plain colored"></i>PostgreSQL</span>
+                <span class="tech-pill" aria-label="Git"><i class="devicon-git-plain colored"></i>Git</span>
+                <span class="tech-pill" aria-label="Linux"><i class="devicon-linux-plain colored"></i>Linux</span>
+                <span class="tech-pill" aria-label="Postman"><i class="devicon-postman-plain colored"></i>Postman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="contact-card" data-reveal>
+            <div>
+              <p class="eyebrow" data-i18n="contact_eyebrow">Contact</p>
+              <h2 data-i18n="contact_title">Let's build solutions that matter.</h2>
+              <p data-i18n="contact_desc">
+                Open to new collaborations, enterprise projects, or discussions around digital
+                transformation needs.
+              </p>
+            </div>
+            <div class="contact-actions">
+              <a
+                class="btn primary btn-gmail"
+                href="mailto:ibnuashar9@gmail.com"
+                aria-label="Email (Gmail)"
+                title="Email (Gmail)"
+              >
+                <img
+                  class="icon"
+                  src="https://cdn.simpleicons.org/gmail"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+              <a
+                class="btn ghost btn-linkedin"
+                href="https://www.linkedin.com/in/ibnu-ashar-ramadhan-617404227/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a
+                class="btn ghost btn-whatsapp"
+                href="https://wa.me/6281318690861"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="WhatsApp"
+                title="WhatsApp"
+              >
+                <img
+                  class="icon"
+                  src="https://cdn.simpleicons.org/whatsapp"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+              <a
+                class="btn ghost btn-gitlab"
+                href="https://gitlab.com/Ibnuashar"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitLab"
+                title="GitLab"
+              >
+                <img
+                  class="icon"
+                  src="https://cdn.simpleicons.org/gitlab"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-i18n-html="footer_text">
+          © <span id="year"></span> IBNU ASHAR RAMADHAN. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -21,7 +21,7 @@ const translations = {
     nav_collaborate: "Collaborate",
     hero_eyebrow: "Full Stack Developer • 5+ years experience",
     hero_title:
-      "Building digital products that are <span class=\"accent\">secure, scalable</span>, and impactful.",
+      'Building digital products that are <span class="accent">secure, scalable</span>, and impactful.',
     hero_lead:
       "A Full Stack Developer with 5+ years of experience focused on building innovative software solutions for government, banking, and enterprise sectors. Experienced in delivering robust, maintainable, and scalable systems.",
     hero_cta_projects: "View Projects",
@@ -89,14 +89,19 @@ const translations = {
     proj3_title: "Credit Control Monitoring",
     proj3_desc: "Credit control dashboard to support banking operations.",
     proj4_title: "CC History",
-    proj4_desc: "Credit control history application for internal analysis and audits.",
+    proj4_desc:
+      "Credit control history application for internal analysis and audits.",
+    proj5_title: "AdhocFlow – Adhoc Request Management System",
+    proj5_desc:
+      "Developed an internal web application to manage adhoc requests from users, including submission, PIC assignment, revision handling, approval workflow, status monitoring, and automated email notifications upon completion",
     projects_group2: "Government & Enterprise",
     proj5_title: "TNDE Archive System • KEMENKES",
     proj5_desc: "Maintenance of the TNDE archival system using CodeIgniter 3.",
     proj6_title: "Payroll System • KEMENKES",
     proj6_desc: "Payroll application using CodeIgniter 4 and Spring Boot.",
     proj7_title: "Government Travel Request • KEMENKES",
-    proj7_desc: "Travel request application built with a monolith Spring Boot architecture.",
+    proj7_desc:
+      "Travel request application built with a monolith Spring Boot architecture.",
     proj8_title: "Archive Document System • KOMINFO",
     proj8_desc: "Built and developed an archival document system.",
     proj9_title: "Ship Travel Permit • Ministry of Marine Affairs",
@@ -108,7 +113,8 @@ const translations = {
     skills_eyebrow: "Skills",
     skills_title: "Tech stack I use every day.",
     skill_backend_title: "Backend",
-    skill_backend_desc: "Java (Spring Boot), PHP (Laravel, CodeIgniter 4), Node.js",
+    skill_backend_desc:
+      "Java (Spring Boot), PHP (Laravel, CodeIgniter 4), Node.js",
     skill_frontend_title: "Frontend",
     skill_frontend_desc: "JavaScript, ReactJS, jQuery, AJAX",
     skill_db_title: "Database",
@@ -122,7 +128,7 @@ const translations = {
     contact_desc:
       "Open to new collaborations, enterprise projects, or discussions around digital transformation needs.",
     footer_text:
-      "© <span id=\"year\"></span> IBNU ASHAR RAMADHAN. All rights reserved."
+      '© <span id="year"></span> IBNU ASHAR RAMADHAN. All rights reserved.',
   },
   id: {
     page_title: "Portofolio | Full Stack Developer",
@@ -137,7 +143,7 @@ const translations = {
     nav_collaborate: "Kolaborasi",
     hero_eyebrow: "Full Stack Developer • 5+ tahun pengalaman",
     hero_title:
-      "Membangun produk digital yang <span class=\"accent\">aman, skalabel</span>, dan berdampak.",
+      'Membangun produk digital yang <span class="accent">aman, skalabel</span>, dan berdampak.',
     hero_lead:
       "Full Stack Developer dengan pengalaman lebih dari 5 tahun yang fokus membangun solusi software inovatif untuk sektor pemerintah, perbankan, dan enterprise. Terbiasa menghadirkan sistem yang kuat, mudah dirawat, dan siap tumbuh.",
     hero_cta_projects: "Lihat Project",
@@ -203,16 +209,23 @@ const translations = {
     proj2_desc:
       "Membangun sistem monitoring data cleansing perbankan dengan backend Spring Boot dan frontend Laravel Blade.",
     proj3_title: "Credit Control Monitoring",
-    proj3_desc: "Dashboard credit control untuk mendukung operasional perbankan.",
+    proj3_desc:
+      "Dashboard credit control untuk mendukung operasional perbankan.",
     proj4_title: "CC History",
-    proj4_desc: "Aplikasi histori credit control untuk analisis dan audit internal.",
+    proj4_desc:
+      "Aplikasi histori credit control untuk analisis dan audit internal.",
+    proj5_title: "AdhocFlow – Adhoc Request Management System",
+    proj5_desc:
+      "Mengembangkan aplikasi web internal untuk mengelola permintaan ad hoc dari pengguna, termasuk pengajuan, penugasan PIC, penanganan revisi, alur kerja persetujuan, pemantauan status, dan pemberitahuan email otomatis setelah selesai.",
     projects_group2: "Government & Enterprise",
     proj5_title: "Sistem Arsip TNDE • KEMENKES",
     proj5_desc: "Pemeliharaan sistem kearsipan TNDE menggunakan CodeIgniter 3.",
     proj6_title: "Sistem Penggajian • KEMENKES",
-    proj6_desc: "Aplikasi penggajian menggunakan CodeIgniter 4 dan Spring Boot.",
+    proj6_desc:
+      "Aplikasi penggajian menggunakan CodeIgniter 4 dan Spring Boot.",
     proj7_title: "Pengajuan Perjalanan Dinas • KEMENKES",
-    proj7_desc: "Aplikasi pengajuan perjalanan dinas berbasis monolith Spring Boot.",
+    proj7_desc:
+      "Aplikasi pengajuan perjalanan dinas berbasis monolith Spring Boot.",
     proj8_title: "Sistem Dokumen Arsip • KOMINFO",
     proj8_desc: "Membangun dan mengembangkan sistem dokumen arsip.",
     proj9_title: "Surat Izin Jalan Kapal • Kementerian Kelautan",
@@ -224,7 +237,8 @@ const translations = {
     skills_eyebrow: "Keahlian",
     skills_title: "Tech stack yang saya gunakan setiap hari.",
     skill_backend_title: "Backend",
-    skill_backend_desc: "Java (Spring Boot), PHP (Laravel, CodeIgniter 4), Node.js",
+    skill_backend_desc:
+      "Java (Spring Boot), PHP (Laravel, CodeIgniter 4), Node.js",
     skill_frontend_title: "Frontend",
     skill_frontend_desc: "JavaScript, ReactJS, jQuery, AJAX",
     skill_db_title: "Database",
@@ -237,8 +251,9 @@ const translations = {
     contact_title: "Mari bangun solusi yang berarti.",
     contact_desc:
       "Terbuka untuk kolaborasi baru, project enterprise, atau diskusi seputar kebutuhan digital transformation.",
-    footer_text: "© <span id=\"year\"></span> IBNU ASHAR RAMADHAN. Semua hak dilindungi."
-  }
+    footer_text:
+      '© <span id="year"></span> IBNU ASHAR RAMADHAN. Semua hak dilindungi.',
+  },
 };
 
 const metaDescription = document.querySelector('meta[name="description"]');

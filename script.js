@@ -91,8 +91,8 @@ const translations = {
     proj4_title: "CC History",
     proj4_desc:
       "Credit control history application for internal analysis and audits.",
-    proj5_title: "AdhocFlow – Adhoc Request Management System",
-    proj5_desc:
+    proj12_title: "AdhocFlow – Adhoc Request Management System",
+    proj12_desc:
       "Developed an internal web application to manage adhoc requests from users, including submission, PIC assignment, revision handling, approval workflow, status monitoring, and automated email notifications upon completion",
     projects_group2: "Government & Enterprise",
     proj5_title: "TNDE Archive System • KEMENKES",
@@ -214,8 +214,8 @@ const translations = {
     proj4_title: "CC History",
     proj4_desc:
       "Aplikasi histori credit control untuk analisis dan audit internal.",
-    proj5_title: "AdhocFlow – Adhoc Request Management System",
-    proj5_desc:
+    proj12_title: "AdhocFlow – Adhoc Request Management System",
+    proj12_desc:
       "Mengembangkan aplikasi web internal untuk mengelola permintaan ad hoc dari pengguna, termasuk pengajuan, penugasan PIC, penanganan revisi, alur kerja persetujuan, pemantauan status, dan pemberitahuan email otomatis setelah selesai.",
     projects_group2: "Government & Enterprise",
     proj5_title: "Sistem Arsip TNDE • KEMENKES",
